@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+  int a, b, c, max;
+  printf("\n enter 3 numbers a,b,c:");
+  scanf("%d%d%d", &a, &b, &c);
+  max = (a>b && a>c) ? a : (b>c)? b : c;
+  printf("Maximum = %d", max);
+}  
